@@ -7,15 +7,19 @@ alias ccenvyml='conda env create -f'
 alias cpy='C:/Users/limashto/AppData/Local/miniconda3/python.exe'
 # how to rename from https://stackoverflow.com/questions/42231764/how-can-i-rename-a-conda-environment
 alias cre='conda rename -n' # old_name -d new_name (-d for dry run) 
+alias delenv='conda env remove -n'
+alias creqls='conda list -e > requirements.txt'
 
+# useful misc
 # alias lev="env -0 | sort -z | tr '\0' '\n'" 
-alias lev='env | sort -f' # same as above
+alias lev='env | sort -f' # same as above, Lists Env Vars (LEV) 
 
 # pip
 alias pipi='pip install'
 alias pipiup='pip install --upgrade'
 alias pipit='pip install --trusted-host pypi.org'
 alias pipitup='pip install --trusted-host pypi.org --upgrade'
+alias pipl='pip list --trusted-host pypi.org'
 
 # git
 alias gc='git clone' # <addr>

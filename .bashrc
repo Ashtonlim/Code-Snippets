@@ -25,6 +25,7 @@ alias pipl='pip list --trusted-host pypi.org'
 alias gc='git clone' # <addr>
 alias ga='git add' # <list_of_file_names>
 alias gcm='git commit -m' # 'msg here'
+alias gcam='git commit -am' # 'msg here'
 alias gp='git push'
 # removes files/dir (dir req -r) for files added and commited locally (b4 pushed)
 alias grmc='git rm -f -r --chached' # <file_or_dir_name>

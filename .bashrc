@@ -1,3 +1,10 @@
+# original PS1:
+# PS1="\[\033]0;$TITLEPREFIX:$PWD\007\]\n\[\033[32m\]\u@\h \[\033[35m\]$MSYSTEM \[\033[33m\]\w\[\033[36m\]`__git_ps1`\[\033[0m\]\n$"
+
+# custom bash prompt look
+PS1='\# \[\033[33m\]\w\[\033[36m\]`__git_ps1`\[\033[0m\] $ '
+
+
 # Aliases
 # alias alias_name="command_to_run"
 
@@ -25,6 +32,7 @@ alias pipl='pip list --trusted-host pypi.org'
 alias gc='git clone' # <addr>
 alias ga='git add' # <list_of_file_names>
 alias gcm='git commit -m' # 'msg here'
+alias gcam='git commit -am' # 'msg here'
 alias gp='git push'
 # removes files/dir (dir req -r) for files added and commited locally (b4 pushed)
 alias grmc='git rm -f -r --chached' # <file_or_dir_name>

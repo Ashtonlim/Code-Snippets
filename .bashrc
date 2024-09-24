@@ -28,6 +28,15 @@ alias pipit='pip install --trusted-host pypi.org'
 alias pipitup='pip install --trusted-host pypi.org --upgrade'
 alias pipl='pip list --trusted-host pypi.org'
 
+# java
+alias lgc='./gradlew clean'
+alias lgcb='./gradlew clean build'
+alias lgcbr='./gradlew clean build --refresh-dependencies'
+
+alias ggc='gradle clean'
+alias ggcb='gradle clean build'
+alias ggcbr='gradle clean build --refresh-dependencies'
+
 # git
 alias gc='git clone' # <addr>
 alias ga='git add' # <list_of_file_names>
